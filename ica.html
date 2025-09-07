@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Resume - Erica Janelle Latagan</title>
+  <style>
+    :root {
+      --purple-dark: #5a2a83;
+      --purple-light: #a678d1;
+      --pink-dark: #d14f8a;
+      --pink-light: #f4c1d1;
+      --background: #f9e6f7;
+      --text-dark: #3a0a4a;
+      --text-light: #fff0f6;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: var(--background);
+      color: var(--text-dark);
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 30px auto;
+      background: var(--pink-light);
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(90, 42, 131, 0.3);
+      padding: 30px 40px;
+    }
+
+    header {
+      text-align: center;
+      border-bottom: 3px solid var(--purple-dark);
+      padding-bottom: 15px;
+      margin-bottom: 30px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.8rem;
+      color: var(--purple-dark);
+      letter-spacing: 1.5px;
+    }
+
+    header p {
+      margin: 5px 0 0;
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: var(--pink-dark);
+    }
+
+    .profile-pic {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid var(--purple-dark);
+      margin: 0 auto 20px auto;
+      display: block;
+      box-shadow: 0 0 10px var(--pink-dark);
+    }
+
+    section {
+      margin-bottom: 30px;
+    }
+
+    section h2 {
+      font-size: 1.8rem;
+      color: var(--purple-dark);
+      border-bottom: 2px solid var(--pink-dark);
+      padding-bottom: 6px;
+      margin-bottom: 18px;
+      letter-spacing: 0.8px;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+      margin: 0;
+    }
+
+    li {
+      margin-bottom: 12px;
+      font-size: 1.1rem;
+      color: black;
+    }
+
+    li strong {
+      color: var(--purple-dark);
+    }
+
+    .personal-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 15px;
+    }
+
+    @media (max-width: 480px) {
+      .container {
+        padding: 20px 25px;
+      }
+      header h1 {
+        font-size: 2rem;
+      }
+      section h2 {
+        font-size: 1.4rem;
+      }
+      li {
+        font-size: 1rem;
+      }
+      .profile-pic {
+        width: 110px;
+        height: 110px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="received_234936883023643.jpeg" alt="Erica Janelle Latagan" class="profile-pic" />
+      <h1>Erica Janelle Latagan</h1>
+      <p>2nd Year College</p>
+    </header>
+
+    <section>
+      <h2>Contact Information</h2>
+      <ul>
+        <li><strong>Address:</strong> Nestle 2 A2, GK, Baseco Port Area, Manila</li>
+        <li><strong>Contact:</strong> 091082777776</li>
+        <li><strong>Email:</strong> ericalatagan@gmail.com</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Personal Details</h2>
+      <div class="personal-grid">
+        <ul>
+          <li><strong>Birthday:</strong> June 4, 2005</li>
+          <li><strong>Religion:</strong> Catholic</li>
+          <li><strong>Age:</strong> 20</li>
+        </ul>
+        <ul>
+          <li><strong>Height:</strong> 4'9"</li>
+          <li><strong>Weight:</strong> 65kg</li>
+          <li><strong>Nickname:</strong> Aycaa</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <ul>
+        <li><strong>Elementary School:</strong> Sen. Benigno S. Aquino Elementary School, Baseco, Port Area, Manila</li>
+        <li><strong>High School:</strong> Pres. Corazon C. Aquino High School, Baseco, Port Area, Manila</li>
+        <li><strong>Senior High School:</strong> Raja Soliman Science And Technology High School, Urbiztondo St, Binondo, Manila, Metro Manila</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Work Experience</h2>
+      <ul>
+        <li><strong>Business Permit (Work Immersion):</strong> Padre Burgos Ave, Ermita, Manila, 0913 Metro Manila</li>
+      </ul>
+    </section>
+  </div>
+</body>
+</html>
